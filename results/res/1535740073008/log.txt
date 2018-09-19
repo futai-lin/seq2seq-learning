@@ -1,0 +1,32 @@
+#######################################################
+hid_size = <absl.flags._flag.Flag object at 0x7f4d981a9fd0>
+emb_size = <absl.flags._flag.Flag object at 0x7f4d981b22b0>
+fe_size = <absl.flags._flag.Flag object at 0x7f4d981b2438>
+pos_size = <absl.flags._flag.Flag object at 0x7f4d981b24e0>
+batch_size = <absl.flags._flag.Flag object at 0x7f4d981b2588>
+epoch = <absl.flags._flag.Flag object at 0x7f4d981b2630>
+source_vocab = <absl.flags._flag.Flag object at 0x7f4d981b26d8>
+fe_vocab = <absl.flags._flag.Flag object at 0x7f4d981b2780>
+pos_vocab = <absl.flags._flag.Flag object at 0x7f4d981b2828>
+target_vocab = <absl.flags._flag.Flag object at 0x7f4d981b28d0>
+report = <absl.flags._flag.Flag object at 0x7f4d981b2978>
+learning_rate = <absl.flags._flag.Flag object at 0x7f4d981b2a58>
+mode = <absl.flags._flag.Flag object at 0x7f4d981b2ac8>
+load = <absl.flags._flag.Flag object at 0x7f4d981b2b70>
+dir = <absl.flags._flag.Flag object at 0x7f4d981b2c18>
+limits = <absl.flags._flag.Flag object at 0x7f4d981b2c88>
+hybrid_attention = <absl.flags._flag.BooleanFlag object at 0x7f4d981b2cc0>
+fgate_encoder = <absl.flags._flag.BooleanFlag object at 0x7f4d981b2d68>
+feature = <absl.flags._flag.BooleanFlag object at 0x7f4d981b2dd8>
+position = <absl.flags._flag.BooleanFlag object at 0x7f4d981b2e48>
+encoder_pos = <absl.flags._flag.BooleanFlag object at 0x7f4d981b2eb8>
+decoder_pos = <absl.flags._flag.BooleanFlag object at 0x7f4d981b2f28>
+#######################################################
+1 : loss = 4783.763, time = 4100.899 
+with copy F_measure: [] Recall: [] Precision: [] BLEU: 0.33027999109080475
+without copy F_measure: [] Recall: [] Precision: [] BLEU: 0.3210529462759938
+
+2 : loss = 975.510, time = 4160.473 
+with copy F_measure: [] Recall: [] Precision: [] BLEU: 0.3763126454556588
+without copy F_measure: [] Recall: [] Precision: [] BLEU: 0.36945640866332186
+
